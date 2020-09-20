@@ -1,0 +1,28 @@
+{
+  "name": "kt2appko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdeboertje/kt2oefenen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdeboertje/kt2oefenen/issues"
+  },
+  "homepage": "https://github.com/mdeboertje/kt2oefenen#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  },
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.31.0"
+  }
+}
