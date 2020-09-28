@@ -11,7 +11,7 @@
                 <th>Id</th>
                 <th>CompanyName</th>
                 <th>Logo</th>
-                <th>Updated_at</th>
+                <th>Updated at</th>
                 <th>actions</th>
             </tr>
         </thead>
@@ -20,7 +20,7 @@
             <tr>
                 <td>{{ base.id }}</td>
                 <td>{{ base.companyName }}</td>
-                <td></td>
+                <td><img src="{{ vich_uploader_asset(base, 'imageFile') }}" width="200" alt="blog foto"></td>
                 <td>{{ base.updatedAt ? base.updatedAt|date('Y-m-d') : '' }}</td>
                 <td>
                     <a href="{{ path('base_show', {'id': base.id}) }}">show</a>

@@ -70,6 +70,27 @@ class Base
      */
     private $updatedAt;
 
+    /**
+     * @return \DateTimeInterface|null
+     */
+    public function getUpdatedAt(): ?\DateTimeInterface
+    {
+        return $this->updatedAt;
+    }
+
+    /**
+     * @param \DateTimeInterface|null $updatedAt
+     */
+    public function setUpdatedAt(?\DateTimeInterface $updatedAt): void
+    {
+        $this->updatedAt = $updatedAt;
+    }
+
+    public function getId(): ?int
+    {
+        return $this->id;
+    }
+
 
 
     public function getUser(): ?User
